@@ -1,103 +1,143 @@
-# Logic Flex - Sorting Algorithm Visualizer
+# 🚀 Logic Flex -- Sorting Algorithm Visualizer
 
-A beautiful and interactive web application that visualizes different sorting algorithms in real-time. Built with React and Vite, Logic Flex helps you understand how various sorting algorithms work by animating their execution step-by-step.
+![React](https://img.shields.io/badge/React-18-blue?logo=react)
+![Vite](https://img.shields.io/badge/Vite-Fast-purple?logo=vite)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Project-Active-brightgreen)
 
-## Features
+> 🎯 An interactive and beautifully animated sorting algorithm
+> visualizer built with React + Vite.\
+> Designed to make learning Data Structures intuitive, visual, and
+> engaging.
 
-- **5 Sorting Algorithms**: Bubble Sort, Selection Sort, Insertion Sort, Quick Sort, and Merge Sort
-- **Real-time Visualization**: Watch the algorithm execute with smooth animations
-- **Performance Metrics**: Track live statistics including comparisons, swaps, and execution time
-- **Configurable Settings**:
-  - Adjustable array size (10-120 elements)
-  - Speed control (10-200ms)
-  - Performance mode for faster execution
-- **Complexity Analysis**: View best, average, and worst-case time complexity for each algorithm
-- **Responsive Design**: Works seamlessly on different screen sizes
+------------------------------------------------------------------------
 
-## Algorithms Included
+## 🌟 Why Logic Flex?
 
-1. **Bubble Sort** - O(n²) - Simple comparison-based sorting
-2. **Selection Sort** - O(n²) - Finds minimum and places it
-3. **Insertion Sort** - O(n²) - Efficient for small datasets
-4. **Quick Sort** - O(n log n) average - Divide and conquer approach
-5. **Merge Sort** - O(n log n) - Stable divide and conquer algorithm
+Understanding sorting algorithms through theory alone can be confusing.\
+**Logic Flex transforms code into motion.**
 
-## Getting Started
+Watch algorithms: - Compare elements\
+- Swap values\
+- Divide arrays\
+- Merge results
+
+All in real-time with performance tracking.
+
+------------------------------------------------------------------------
+
+## 🧠 Algorithms Implemented
+
+  -------------------------------------------------------------------------------
+  Algorithm          Best Case    Average Case   Worst Case    Approach
+  ------------------ ------------ -------------- ------------- ------------------
+  Bubble Sort        O(n)         O(n²)          O(n²)         Comparison-based
+
+  Selection Sort     O(n²)        O(n²)          O(n²)         Selection-based
+
+  Insertion Sort     O(n)         O(n²)          O(n²)         Incremental
+
+  Quick Sort         O(n log n)   O(n log n)     O(n²)         Divide & Conquer
+
+  Merge Sort         O(n log n)   O(n log n)     O(n log n)    Stable Divide &
+                                                               Conquer
+  -------------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+## 🎨 Core Features
+
+### 🔴 Real-Time Visualization
+
+Smooth animated execution of each algorithm.
+
+### 📊 Live Performance Metrics
+
+-   Comparisons\
+-   Swaps\
+-   Execution Time (ms)
+
+### ⚙️ Configurable Controls
+
+-   Adjustable array size (10--120 elements)\
+-   Speed control (10ms--200ms)\
+-   Performance Mode (Instant execution without animations)
+
+### 📚 Complexity Insights
+
+Displays best, average, and worst-case complexity for each algorithm.
+
+### 📱 Fully Responsive
+
+Optimized for Desktop, Tablet, and Mobile devices.
+
+------------------------------------------------------------------------
+
+## 🛠 Tech Stack
+
+-   React\
+-   Vite\
+-   JavaScript (ES6+)\
+-   CSS3 Animations
+
+------------------------------------------------------------------------
+
+## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js (v14 or higher)
-- npm or yarn
+
+-   Node.js (v14 or higher)\
+-   npm or yarn
 
 ### Installation
 
-1. Clone the repository:
-```bash
+``` bash
 git clone https://github.com/dimple-02/logic-flex.git
 cd logic-flex
-```
-
-2. Install dependencies:
-```bash
 npm install
-```
-
-3. Start the development server:
-```bash
 npm run dev
 ```
 
-4. Open your browser and navigate to `http://localhost:5173`
+Open your browser at:\
+http://localhost:5173
 
-## Build
+------------------------------------------------------------------------
 
-To build for production:
+## 🏗 Build for Production
 
-```bash
+``` bash
 npm run build
 ```
 
-## Project Structure
+------------------------------------------------------------------------
 
-```
-src/
-├── algorithms/      # Sorting algorithm implementations
-├── components/      # React components
-├── data/           # Complexity data
-├── App.jsx         # Main application component
-└── main.jsx        # Entry point
-```
+## 📂 Project Structure
 
-## Technologies Used
+    src/
+    ├── algorithms/      # Sorting algorithm implementations
+    ├── components/      # React components
+    ├── data/            # Complexity data
+    ├── App.jsx          # Main application component
+    └── main.jsx         # Entry point
 
-- **React** - UI library
-- **Vite** - Build tool and dev server
-- **CSS3** - Styling and animations
-- **JavaScript ES6+** - Core functionality
+------------------------------------------------------------------------
 
-## How to Use
+## 🔥 Performance Mode
 
-1. **Select Algorithm**: Choose a sorting algorithm from the dropdown
-2. **Adjust Settings**: Configure array size and speed as desired
-3. **Generate Array**: Click to create a new random array
-4. **Start Sorting**: Click the sort button to visualize the algorithm
-5. **Monitor Stats**: Track comparisons, swaps, and execution time in real-time
+Enable Performance Mode to skip animations and execute algorithms at
+maximum speed.\
+Ideal for testing larger datasets.
 
-## Performance Mode
+------------------------------------------------------------------------
 
-Enable Performance Mode to skip animations and run algorithms at maximum speed. Great for testing on larger datasets.
+## 📄 License
 
-## Links
+This project is open-source under the MIT License.
 
-- [GitHub Repository](https://github.com/dimple-02/logic-flex)
-- [Instagram](https://www.instagram.com/code._coffee)
-- [YouTube](https://www.youtube.com)
+------------------------------------------------------------------------
 
-## License
+## 👩‍💻 Author
 
-This project is open source and available under the MIT License.
-
-## Author
-
-**Original Creator**: Dimple
-
-This project is original work created by Dimple with ❤️ for algorithm enthusiasts and learners.
+Created with ❤️ by **Dimple**\
+Logic Flex is an original project built for algorithm enthusiasts and
+learners.

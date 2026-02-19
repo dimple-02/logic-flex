@@ -57,7 +57,8 @@ export default function App() {
 
     if (!performanceMode) {
       setActiveBars([i, j]);
-      await sleep(speed);
+      // Invert speed: higher slider value = faster animation (shorter delay)
+      await sleep(210 - speed);
       setActiveBars([]);
     }
   };

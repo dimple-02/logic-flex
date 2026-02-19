@@ -419,6 +419,20 @@ body {
 	color: rgba(148, 163, 184, 0.5);
 }
 
+.footer-icon-link {
+	color: var(--text-muted);
+	transition: all 0.3s ease;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer-icon-link:hover {
+	color: var(--cyan);
+	transform: translateY(-2px);
+	filter: drop-shadow(0 4px 8px rgba(94, 234, 212, 0.4));
+}
+
 .bars {
 	display: flex;
 	align-items: flex-end;

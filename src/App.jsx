@@ -232,7 +232,7 @@ export default function App() {
       </div>
 
       <footer className="footer fade-up delay-2">
-        <div className="flex items-center gap-6">
+        <div style={{ position: 'relative', zIndex: 2, display: 'flex', alignItems: 'center', gap: '24px' }}>
           <a 
             href="https://github.com/dimple-02/logic-flex" 
             target="_blank"

@@ -395,6 +395,7 @@ body {
 	);
 	opacity: 0;
 	transition: opacity 0.4s ease;
+	pointer-events: none;
 }
 
 .footer:hover::after {
@@ -425,6 +426,9 @@ body {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
+	position: relative;
+	z-index: 1;
+	cursor: pointer;
 }
 
 .footer-icon-link:hover {
